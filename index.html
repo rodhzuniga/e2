@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Reto #2 - En el rango, por favor.
+    Pide al usuario que indique 2 números: uno que servirá 
+    como límite y otro para comparar. Si el segundo número 
+    es menor al primero, mostrarás un mensaje diciendo 
+    “El número ‘x’ se encuentra en el rango, gracias” y en 
+    caso contrario dirá “El número ‘x’ excede el límite permitido”. -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var numLim = parseInt(prompt("Ingrese un valor como límite : ","Cualquier número"))
+        var numX = parseInt(prompt("ingrese un número","cualquier valor numérico"));
+        if (numX<numLim) {
+            alert ("El número X se encuentra en el rango");
+        } else {
+            alert ("El número X excede el límite permitido");
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
